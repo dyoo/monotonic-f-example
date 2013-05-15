@@ -1,6 +1,7 @@
 #lang racket
 
-;;
+;; Run this module to see that the test harness tests all the implementation in impls.
+
 (define (test-module-with-monotonic-f module-path-name)
   (define ns (make-base-namespace))
   (printf "testing ~s\n" module-path-name)
